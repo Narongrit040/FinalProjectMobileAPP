@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_cloud_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+        android:text="User Login"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:inputType="textPersonName"
+        tools:text="Enter your Email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        tools:text="Enter your password" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="368dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1"
+        android:text="Not have an account? Signup herre"
+        android:textAlignment="center" />
+</LinearLayout>
+
+
+
+
+
